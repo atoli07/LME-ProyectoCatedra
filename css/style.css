@@ -27,19 +27,29 @@ body{
 	overflow: hidden;
 }
 #header img{
-	width: 9%;
-	height: 5%;
+	width: 10%;
+	height: 15%;
 	float: left;
+	padding-left: 10%;
+	margin-bottom: 9px;
 }
 
 nav{
 	float: right;
 	padding-right: 10%;
+	padding-top: 29px;
 }
 
 nav a{
 	text-decoration: none;
 	color: white;
+	margin:0px 15px;
+}
+nav a:hover{
+	background-color: #96363B;
+	border-radius: 15px;
+	padding: 10px;
+	transition-duration: 0.3s;
 }
 
 article{
