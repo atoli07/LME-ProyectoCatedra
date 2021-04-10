@@ -24,7 +24,17 @@ body{
 /*Header y Footer*/
 #header{
 	background-color: #812F33;
-	height: 30%;
+	overflow: hidden;
+}
+#header img{
+	width: 9%;
+	height: 5%;
+	float: left;
+}
+
+nav{
+	float: right;
+	padding-right: 10%;
 }
 
 nav a{
