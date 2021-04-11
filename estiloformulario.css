@@ -1,0 +1,13 @@
+body{
+	background: #173C45;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:20px;
+	margin:auto;
+	background-color: #8E2F3D;
+	font-family: helvetica;	
+	color: white;
+}
