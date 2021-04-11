@@ -19,6 +19,7 @@ body{
 	width: 75%;
 	margin:0px auto;
 	box-shadow: -10px 10px 15px #888888, 10px 10px 15px #888888;
+	padding: 1.5%;
 }
 
 /*Header y Footer*/
@@ -60,7 +61,10 @@ img{
 	align-content: center;
 	padding-left: 10px;
 	padding-right: 10px;
-
+	max-width: 50%;
+	max-height: 70%;
+	min-width: 15%;
+	min-height: 20%;
 }
 
 .boton{
