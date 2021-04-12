@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta&display=swap');
+*{
+    font-family: 'Mukta', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+}
+
+body{
+	background-color: white;
+}
+/*Caja contenido*/
+#contenido{
+	background-color: #EEF5EB;
+	width: 75%;
+	margin:0px auto;
+	box-shadow: -10px 10px 15px #888888, 10px 10px 15px #888888;
+	padding: 1.5%;
+}
+
+/*Header y Footer*/
+#header{
+	background-color: #812F33;
+	overflow: hidden;
+}
+#header img{
+	width: 10%;
+	height: 15%;
+	float: left;
+	padding-left: 10%;
+	margin-bottom: 9px;
+}
+
+#footer{
+	background-color: #CED4CB;
+	width: 78.1%;
+	margin: 0px auto;
+	box-shadow: -10px 10px 15px #888888, 10px 10px 15px #888888;
+}
+
+nav{
+	float: right;
+	padding-right: 10%;
+	padding-top: 50px;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	margin:0px 15px;
+}
+nav a:hover{
+	background-color: #96363B;
+	border-radius: 15px;
+	padding: 10px;
+	transition-duration: 0.3s;
+}
+
+img{
+	align-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 50%;
+	max-height: 70%;
+	min-width: 15%;
+	min-height: 20%;
+}
+
+.boton{
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+	padding: 1%;
+	border-radius: 10px;
+	border-style: none;
+}
+
+input.boton:hover{
+	background-color: #A33B40;
+}
+
+#contacto{
+	text-align: center;
+	background-color: #D3D9D0;
+	width: 45%;
+	margin: 0px auto;
+	padding: 1.5%;
+	border-radius: 5px;
+}
+
+table{
+ 	margin: 0px auto;
+ 	width: 55%;
+	background-color: : #b9c9fe;
+	font-size: 13pt;
+	border-collapse: collapse; 
+}
+ caption{
+ 	color: white;
+	margin-top: 25px;
+	padding: 10px;
+	background-color: #705E78;
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+table th{
+	background-color:#A33B40;
+	padding:10px;
+	color: white;
+}
+
+table td{
+	border:solid 1px #CED4CB;
+	padding: 10px;
+}
