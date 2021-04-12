@@ -20,6 +20,7 @@ body{
 	margin:0px auto;
 	box-shadow: -10px 10px 15px #888888, 10px 10px 15px #888888;
 	padding: 1.5%;
+	border-radius: 5px;
 }
 
 /*Header y Footer*/
@@ -68,8 +69,26 @@ img{
 }
 
 .boton{
-	color: white;
+	color: black;
 	font-weight: bold;
 	display: inline-block;
-	background-color: 
+	padding: 1%;
+	border-radius: 10px;
+	border-style: none;
+}
+
+input.boton:hover{
+	background-color: #A33B40;
+}
+
+#contacto{
+	text-align: center;
+	background-color: #D3D9D0;
+	width: 45%;
+	margin: 0px auto;
+	padding: 1.5%;
+}
+
+textarea{
+	min-width: 45%;
 }

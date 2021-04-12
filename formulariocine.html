@@ -17,9 +17,9 @@
         </nav>
     </header>
 	<div id="contenido">
-		<form action="recoleccion_de_datos.html" method="post">
+		<form action="recoleccion_de_datos.html" method="post" id="contacto">
 		
-			<legend>Contacto</legend>
+			<h1>Contáctanos</h1>
 
 			<div>
 				<label for="Nombre"> Nombre:</label>
@@ -51,14 +51,14 @@
 				<input type="Telefono" name="Telefono" id="Telefono" required pattern="^[7]{1}[0-9]{3}[-]{1}[0-9]{4}" placeholder="XXXX-XXXX" title="Es obligatorio el uso de digitos">
 			</div>
 
-			<p>
 			<label>Comentario</label>
+			<p>
 			<textarea name="Comentario" cols="35" rows="10"></textarea>
 			</p>
 
   			<p>
-		    <input type="submit" value="Enviar">
-		    <input type="reset" value="Borrar">
+		    <input type="submit" value="Enviar" class="boton">
+		    <input type="reset" value="Borrar" class="boton">
 			</p>
 		</form>
 	</div>
