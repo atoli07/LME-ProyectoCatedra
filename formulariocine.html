@@ -28,7 +28,6 @@
 
 			<label>Sala</label>
 			<select name="salas" required="Seleccionar" title="Es obligatorio seleccionar una sala">
-				<option>Seleccionar sala preferida</option>
 			<option>Metrocentro San Salvador</option>
 			<option>Metrocentro Santa Ana</option>
 			<option>Metrocentro San Miguel</option>
@@ -48,12 +47,12 @@
 
 			<div>
 				<label for="Telefono"> Numero de Telefono: </label>
-				<input type="Telefono" name="Telefono" id="Telefono" required pattern="^[7]{1}[0-9]{3}[-]{1}[0-9]{4}" placeholder="XXXX-XXXX" title="Es obligatorio el uso de digitos">
+				<input type="Telefono" name="Telefono" id="Telefono" required pattern="^[7]{1}[0-9]{3}[-]{1}[0-9]{4}" placeholder="XXXX-XXXX" title="Formato solicitado: 7XXX-XXXX">
 			</div>
 
 			<label>Comentario</label>
 			<p>
-			<textarea name="Comentario" cols="35" rows="10"></textarea>
+			<textarea name="Comentario" cols="35" rows="10" required></textarea>
 			</p>
 
   			<p>
