@@ -20,6 +20,7 @@ body{
 	margin:0px auto;
 	box-shadow: -10px 10px 15px #888888, 10px 10px 15px #888888;
 	padding: 1.5%;
+	overflow: hidden;
 }
 
 /*Header y Footer*/
@@ -117,4 +118,117 @@ table th{
 table td{
 	border:solid 1px #CED4CB;
 	padding: 10px;
+}
+
+/* ------------------------ */
+/* Cartelera */
+/* ------------------------ */
+.trailer{
+	width: 100%;
+	height: 300px;
+}
+
+.trailers{
+	display: block;
+	width: 100%;
+	height: 300px;
+}
+
+#titulo{
+	padding-bottom: 10px;
+	font-size: 40pt;
+	line-height: 22px;
+    letter-spacing: 0.2em;
+}
+
+#precio p{text-align: center;}
+
+#sinopsis{
+	padding-bottom: 10pt;
+}
+
+/*Para celulares (prefijo xs) */
+@media (max-width:768px) {
+	.informacion{
+		width: 100%;
+	}		
+}
+
+/*Para tablets (prefijo sm)*/
+@media (min-width:768px) {
+
+	#director p{
+		padding-left: 5pt;
+	}
+
+    #genero, #director,#elenco{
+       float: left;
+	   width:33.33333333%
+    }
+
+	#sinopsis{
+		float: left;
+		width: 100%;
+	}
+
+    #precio,#fechas, #horariospresentacion{
+        float: left;
+		width:33.33333333%
+    } 
+}
+
+/*Para computadoras con un ancho menor a 1200px (prefijo md)*/
+@media (min-width:992px) {
+
+	.informacion{
+		float: left;
+		width:41.66666667%
+	}
+
+	.horarios{
+		float: left;
+		width:58.33333333%
+	}
+
+	#sinopsis p{
+		padding-left: 8pt;
+	}
+
+    #genero, #director,#elenco, #sinopsis{
+        float: left;
+        width:100%;
+    }
+
+	#precio,#fechas, #horariospresentacion{
+        float: left;
+		width:33.33333333%
+    } 
+}
+
+/*Para computadoras con un ancho mayor o igual a 1200px
+(prefijo lg)*/
+@media (min-width:1200px) {
+    .informacion{
+		float: left;
+		width:41.66666667%
+	}
+
+	.horarios{
+		float: left;
+		width:58.33333333%
+	}
+
+	#sinopsis p{
+		padding-left: 8pt;
+	}
+
+    #genero, #director,#elenco, #sinopsis{
+        float: left;
+        width:100%;
+    }
+
+	#precio,#fechas, #horariospresentacion{
+        float: left;
+		width:33.33333333%
+    } 
 }
