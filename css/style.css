@@ -170,7 +170,7 @@ table td{
 
 .slider3 ul{
 	display: flex;
-	animation: slide 25s infinite alternate linear;
+	animation: slide3 25s infinite alternate linear;
 	width: 600%;
 }
 
@@ -184,7 +184,7 @@ table td{
 	height: 100%;
 }
 
-@keyframes slide {
+@keyframes slide3 {
 	0%{margin-left: 0;}
 	30%{margin-left: 0;}
 
