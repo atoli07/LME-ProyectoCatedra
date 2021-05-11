@@ -130,33 +130,42 @@ input.boton:hover{
 	border-radius: 5px;
 }
 
+/* ------------------------ */
+/* Table */
+/* ------------------------ */
+
+div.estrenos{width: 100%;}
+
 table{
  	margin: 0px auto;
- 	width: 55%;
-	background-color: #b9c9fe;
+	height: 100%;
+ 	width: 100%;
 	font-size: 13pt;
 	border-collapse: collapse; 
 }
- caption{
- 	color: white;
-	margin-top: 25px;
-	padding: 10px;
-	background-color: #705E78;
-	font-size: 18pt;
-	font-weight: bold;
+
+thead{
+	color: #fff;
+	background-color: #A33B40;
 }
 
-table th{
-	background-color:#A33B40;
-	padding:10px;
-	color: white;
+tbody{background-color: #CED4CB;}
+
+tbody th{
+	width: auto;
 }
 
-table td{
-	border:solid 1px #CED4CB;
-	padding: 10px;
+.movie{
+	height: 100%;
+	width: 100%;
+	border-right:solid 1px #EEF5EB;
 }
 
+.movie img{
+	display: block;
+	width: 100%;
+	height: 45%;
+}
 /* ------------------------ */
 /* Sliders*/
 /* ------------------------ */
