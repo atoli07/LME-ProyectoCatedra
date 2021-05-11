@@ -49,7 +49,6 @@ body{
 
 label.toggle,
 [id^=drop] {
-    /*OCULTO EL ICONO*/
     display: none;
 }
 
@@ -76,8 +75,6 @@ nav a:hover{
 	border-radius: 5px;
 	transition-duration: 0.3s;
 }
-
-nav a:first-child:hover{background-color: none;}
 
 nav ul {
     float: right;
@@ -262,7 +259,7 @@ table td{
 	padding-bottom: 10pt;
 }
 
-/*Para celulares (prefijo xs) */
+/*Para celulares */
 @media (max-width:768px) {
 	.informacion{
 		width: 100%;
@@ -297,9 +294,12 @@ table td{
 
 	#logo {
         display: inline-block;
-        padding: 0 0 0 20px;
-        text-align: center;
     }
+
+	#logo img{
+		width: 55%;
+		height: 100%;
+	}
 
     nav ul li {
         display: block;
@@ -308,7 +308,9 @@ table td{
     }
 
 	label.toggle {
+		margin-top: 0;
         display: block;
+		float: right;
         background-color: #254441;
         padding: 0 20px;
         color: #fff;
@@ -320,6 +322,7 @@ table td{
     }
 
     label.icono {
+		margin-top: 0;
         background-color: rgba(0, 0, 0, 0.3);
         border-left: 1px solid #96363B;
         display: inline-block;
@@ -343,7 +346,7 @@ table td{
     } 
 }
 
-/*Para tablets (prefijo sm)*/
+/*Para tablets*/
 @media (min-width:768px) and (max-width:991px) {
 
 	#director p{
@@ -394,6 +397,11 @@ table td{
         text-align: center;
     }
 
+	#logo img{
+		width: 55%;
+		height: 100%;
+	}
+
     nav ul li {
         display: block;
         width: 100%;
@@ -436,7 +444,7 @@ table td{
     } 
 }
 
-/*Para computadoras con un ancho menor a 1200px (prefijo md)*/
+/*Para computadoras con un ancho menor a 1200px*/
 @media (min-width:992px) {
 
 	.informacion{
@@ -487,8 +495,7 @@ table td{
 	}
 }
 
-/*Para computadoras con un ancho mayor o igual a 1200px
-(prefijo lg)*/
+/*Para computadoras con un ancho mayor o igual a 1200px*/
 @media (min-width:1200px) {
     .informacion{
 		float: left;
