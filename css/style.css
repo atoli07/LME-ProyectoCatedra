@@ -43,6 +43,9 @@ body{
 	box-shadow: -10px 10px 15px #888888, 10px 10px 15px #888888;
 }
 
+/* ------------------------ */
+/* Menu */
+/* ------------------------ */
 nav{
 	float: right;
 	padding-right: 10%;
@@ -69,6 +72,14 @@ img{
 	max-height: 70%;
 	min-width: 15%;
 	min-height: 20%;
+}
+
+.integrantes{
+	width: 95%;
+	background-color: #D5DBD3;
+	margin: 0 auto;
+	border-radius: 3px;
+	overflow: hidden;
 }
 
 .boton{
@@ -226,7 +237,26 @@ table td{
 @media (max-width:768px) {
 	.informacion{
 		width: 100%;
-	}		
+	}	
+	
+	.integrantes img{
+		display: block;
+		margin: 0 auto;
+		width: 55%;
+		height: 40%;
+	}
+
+	.int1, .int2, .int3, .int4{
+		padding-top: 10px;
+		border-bottom: 1px solid whitesmoke;	
+	}
+
+	#titulo{
+		padding-top: 10px;
+		font-size: 40pt;
+		line-height: 22px;
+		letter-spacing: 0.1em;
+	}
 }
 
 /*Para tablets (prefijo sm)*/
@@ -250,6 +280,18 @@ table td{
         float: left;
 		width:33.33333333%
     } 
+
+	.integrantes img{
+		display: block;
+		margin: 0 auto;
+		width: 55%;
+		height: 40%;
+	}
+
+	.int1, .int2, .int3, .int4{
+		padding-top: 10px;
+		border-bottom: 1px solid whitesmoke;	
+	}
 }
 
 /*Para computadoras con un ancho menor a 1200px (prefijo md)*/
@@ -278,6 +320,29 @@ table td{
         float: left;
 		width:33.33333333%
     } 
+
+	.int1, .int2, .int3, .int4{
+		padding-top: 10px;
+		border-bottom: 1px solid whitesmoke;	
+	}
+
+	div.integrantes div:nth-child(2n){
+		border-left: 1px solid whitesmoke;
+	}
+
+	.int1, .int2, .int3, .int4{
+		float: left;
+		width: 49.5%;
+	}
+
+	.int5{width: 100%;}
+	.integrantes img{
+		display: block;
+		margin: 0 auto;
+		width: 25%;
+		height: 10%;
+		float: left;
+	}
 }
 
 /*Para computadoras con un ancho mayor o igual a 1200px
@@ -306,4 +371,27 @@ table td{
         float: left;
 		width:33.33333333%
     } 
+
+	.int1, .int2, .int3, .int4{
+		padding-top: 10px;
+		border-bottom: 1px solid whitesmoke;	
+	}
+
+	div.integrantes div:nth-child(2n){
+		border-left: 1px solid whitesmoke;
+	}
+
+	.int1, .int2, .int3, .int4{
+		float: left;
+		width: 49.5%;
+	}
+
+	.int5{width: 100%;}
+	.integrantes img{
+		display: block;
+		margin: 0 auto;
+		width: 25%;
+		height: 10%;
+		float: left;
+	}
 }
