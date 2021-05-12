@@ -155,6 +155,11 @@ tbody th{
 	width: auto;
 }
 
+table tr:nth-child(2){
+	color: #fff;
+	background-color: #A33B40;
+}
+
 .movie{
 	height: 100%;
 	width: 100%;
@@ -163,8 +168,9 @@ tbody th{
 
 .movie img{
 	display: block;
+	margin: 0 auto;
 	width: 100%;
-	height: 45%;
+	height: 75%;
 }
 /* ------------------------ */
 /* Sliders*/
@@ -292,6 +298,8 @@ tbody th{
 		line-height: 22px;
 		letter-spacing: 0.1em;
 	}
+
+	.slider{height:1%;}
 
 	/* ------------------------ */
 	/* Menu */
